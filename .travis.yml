@@ -1,6 +1,6 @@
 language: c
 
-cache: 
+cache:
     - apt
 
 env:
@@ -10,7 +10,7 @@ env:
 
 before_install:
     - sudo apt-get update -qq
-    - sudo apt-get install php
+    - sudo apt-get install php5
     - sudo apt-get install gtest gtest-dev
 
 before_script:
