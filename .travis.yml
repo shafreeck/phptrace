@@ -3,11 +3,6 @@ language: c
 cache:
     - apt
 
-env:
-    matrix:
-      - ENABLE_MAINTAINER_ZTS=0 ENABLE_DEBUG=0
-      - ENABLE_MAINTAINER_ZTS=1 ENABLE_DEBUG=1
-
 before_install:
     - sudo apt-get update -qq
     - sudo apt-get install php5
