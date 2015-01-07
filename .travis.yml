@@ -15,7 +15,7 @@ before_install:
     - sudo apt-get install libgtest-dev
 
 before_script:
-    - make all PHPDIR=/usr/local/
+    - make all PHPDIR=/usr
 
 
 script:
