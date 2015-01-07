@@ -16,6 +16,7 @@ before_install:
 
 before_script:
     - make all PHPDIR=/usr
+    - cd tests && make && cd -
 
 
 script:
